@@ -1,0 +1,68 @@
+/* :root{
+  --mainOpacity: rgba(0, 0, 0, 0.55);
+} */
+
+.header {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./Library-images/Library2.jpg"); 
+}
+
+.main-color {
+background-color: #0e76a8 ;
+}
+
+.col-image-left {
+  background-image: url("./Library-images/Library3.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25em !important;
+}
+
+.col-image-right {
+  background-image: url("./Library-images/Library1.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25em !important;
+}
+
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
+}
+
+.signup {
+  background-image: url("./Library-images/Library4.png");
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: left center; 
+}
+
+.signin {
+  background-image: url("./Library-images/Library4.png");
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: right center; 
+}
+
+.search {
+  background-image: url("./Library-images/Library7.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  height: 100vh; 
+  width: 100%; 
+  position: absolute; 
+}
+
+.shelf {
+  background-image: url("./Library-images/Library5.png");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  height: 100vh; 
+  width: 100%; 
+  position: absolute; 
+}
+  
+  
